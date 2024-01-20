@@ -1,0 +1,129 @@
+@media screen and (max-width: 1351px){
+    .navbar{
+        flex-wrap: wrap;
+        height:88px
+    }
+    .container-main{
+        /* flex-direction: row; */
+      
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .marginl{
+        margin-left: 0px;
+    }
+    .img img{
+        display: none;
+    }
+    .right-panel{
+        display: none;
+    }   
+.middle-panel{
+
+   
+}
+}
+
+@media screen and (max-width: 600px){
+    .line{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        height: 108px;
+        width: 454px;
+    }
+    .logo img {
+        height: 40px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+    .input{
+        width: 50px;
+        margin-left: 1px;
+        font-size: 14px;
+    }
+    .item{
+        font-size: 9px;
+        padding: 0px 4px;
+    }
+    .all-item{
+        padding: 11px;
+    }
+    .container-main {
+        flex-wrap: wrap;
+        margin-left: 0px;
+        justify-content: space-between;
+        /* width: 121%; */
+        width: 100vw;
+        margin: 94px 0px;
+    }
+
+    .marginl{
+        /* width: 215px; */
+        width: 100vw;
+        
+
+    }
+    .left-panel {
+        height: 420px;
+        /* width: 215px; */
+        width: 100vw;
+    }
+    
+    .left-second {
+width:100vw;
+        /* border: 2px solid red; */
+        margin-top: 5px;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 20px;
+
+
+
+
+    }
+
+    .middle-first {
+        height: 110px;
+        width: 59%;
+    }
+    .img-second input {
+        width: 219px;  
+    }
+.img-second{
+    justify-content: start;
+}
+    .img img{
+        display: none;
+    }
+    .right-panel{
+        display: none;
+    }
+    .post img{
+        width: 59%;
+    }
+    .second{
+        display: none;
+    }
+    .item-7{
+        display: none   ;
+    }
+    .item-7 ~ div {
+        display: none;
+    }
+    .video video{
+        width:59%;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+    }
+}

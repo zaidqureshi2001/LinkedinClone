@@ -1,0 +1,243 @@
+/* middle panel styling started */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.middle-panel {
+    /*   
+        height: 100px;
+        width: 900px; */
+    /* margin-left: 50px; */
+}
+
+.middle-first {
+    height: 110px;
+    width: 40rem;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-second {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.img-second img {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+
+}
+
+.img-second input {
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.middle-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin:10px; */
+    padding: 10px;
+}
+
+.left {
+    /* margin-left: 5px; */
+}
+
+.items-frist {
+    display: flex;
+}
+
+.items-frist p {
+    margin-left: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* middle main feed */
+.middle-third {
+    /* height: 500px; */
+    width: 40rem;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.third1 {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    
+ 
+}
+/* .za{
+   text-align: right;
+   height: 5px;
+   width: 2px;
+} */
+.third1 img { 
+    height: 80px;
+    width: 100px;
+
+}
+
+.txt {
+    padding: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+
+.post img{
+    height: 500px;
+    width: 40rem;
+
+}
+.post-secetion{
+    background-color:white;
+    height: 30px;
+    width: 40rem;
+}
+.post-section img{
+    height: 10px;
+    width: 10px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .new-icns{
+    height: 10px;
+    width: 10px;
+} */
+.sectn{
+    display: flex;
+    flex-direction: row;
+    padding: 11px;
+    margin-left: 5px;
+}
+.sectn p{
+    margin-left: 3px;
+}
+/*  */
+/*  */
+/* fourth div started */
+.fourth{
+  margin-top: 20px;
+  /* height: 500px; */
+   width: 40rem;
+}
+.fourth1{
+   background-color: white;
+   padding:10px;
+   display: flex;
+   
+}
+.fourth1 img{
+    height: 50px;
+    width: 100px;
+}
+.descrip{
+    margin-left: 17px;
+}
+.video{
+    height: 360px;
+    width: 40rem;
+}
+/*  */
+/*  */
+/*  */
+/* right panel has strated */
+.right-first{
+    background-color: white;
+    height: 25%;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+ 
+}
+.flex{
+    height: 20px;
+}
+.firstbox{
+    padding: 13px;
+
+}
+.flex p{
+    float: left;
+}
+.right{
+    float: right;
+}
+.second-right{
+    margin-left: 28px;
+    padding: 14px 8px;
+}
+.second-right ul{
+    margin-top: 11px;
+}
+.second-right p{
+    margin-top: 5px;
+}
+/*  */
+/*  */
+/*  */
+/* third right has started */
+.third-right{
+    margin-top: 20px;
+    height: 200px;
+   
+}
+.thirdright{
+    padding: 0px 8px;
+}
+/*  */
+/*  */
+/* right last started */
+.right-last{
+    margin-top: 20px;
+}
+.logo2{
+    display: flex;
+    margin-top: 4px;
+}
+.logo2 img{
+    height: 79px;
+    width: 67px;
+    margin-left: 3px;
+}
+.ok{
+    margin-left: 10px;
+}
+.border{
+    border: 1px solid black;
+    padding: 11px 10px;
+    width: 71px;
+    border-radius: 20px;
+    transition: all ease 0.6s;
+}
+.border:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.ok p{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
